@@ -1,0 +1,68 @@
+.media-element{
+  position: absolute;
+  top: -10000em;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+
+.sm-wa{
+  color: #075e54;
+}
+.sm-wa:hover{
+  color: #075e54;
+}
+
+.sm-wa-detail{
+  color: #000000;;
+}
+
+.sm-fb{
+  color: #3b5998;
+}
+.sm-fb:hover{
+  color: #3b5998;
+}
+
+.sm-tw{
+  color: #00acee;
+}
+.sm-tw:hover{
+  color: #00acee;
+}
+
+.sm-li{
+  color: #0077b5;
+}
+.sm-li:hover{
+  color: #0077b5;
+}
+
+
+.sm-ig{
+  color: #e43c62;
+}
+.sm-ig:hover{
+  color: #e43c62;
+}
+
+.sm{
+  margin-right: 20px;
+  font-size: 25pt;
+}
+.sm span{
+  font-size: 18px;
+  /* font-weight: 100; */
+}
+.sm a:hover{
+  color: inherit;  
+}
+
+.contact-sm{
+  font-size: 20pt;
+}
