@@ -344,7 +344,31 @@
 
    </footer>
    
-	<!-- JS here -->
+    <!-- JS here -->
+    
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+                <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+
+                <!-- TODO: Add SDKs for Firebase products that you want to use
+                    https://firebase.google.com/docs/web/setup#available-libraries -->
+                <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+
+                <script>
+                // Your web app's Firebase configuration
+                var firebaseConfig = {
+                    apiKey: "AIzaSyCKw8HwK1DmJIn1HJF7s6UWJHPxv794mAQ",
+                    authDomain: "carislot.firebaseapp.com",
+                    databaseURL: "https://carislot.firebaseio.com",
+                    projectId: "carislot",
+                    storageBucket: "carislot.appspot.com",
+                    messagingSenderId: "1096018008088",
+                    appId: "1:1096018008088:web:e4d3a9d22aab0bef9c0b6d",
+                    measurementId: "G-JDZYTV9CD4"
+                };
+                // Initialize Firebase
+                firebase.initializeApp(firebaseConfig);
+                firebase.analytics();
+                </script>
 	
 		<!-- All JS Custom Plugins Link Here here -->
         <script async src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
