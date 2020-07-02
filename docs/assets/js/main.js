@@ -78,8 +78,6 @@
     }
     mainSlider();
 
- 
-
 /* 5.  Applic App */
     var client_list = $('.app-active');
     if(client_list.length){
