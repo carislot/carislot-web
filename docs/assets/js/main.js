@@ -1,15 +1,7 @@
 (function ($)
   { "use strict"
   
-/* 1. Proloder */
-    // $(window).on('load', function () {
-    //   $('#preloader-active').delay(450).fadeOut('slow');
-    //   $('body').delay(450).css({
-    //     'overflow': 'visible'
-    //   });
-    // });
-
-
+ 
 /* 2. slick Nav */
 // mobile_menu
     var menu = $('ul#navigation');
@@ -85,116 +77,6 @@
       }
     }
     mainSlider();
-
-
- // recent-active
-  $('.customar-active').slick({
-    dots: true,
-    infinite: true,
-    speed: 600,
-    arrows: false,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    prevArrow: '<button type="button" class="slick-prev"> <span class="fas fa-chevron-right"></span></button>',
-    nextArrow: '<button type="button" class="slick-next"> <span class="fas fa-chevron-right"><span></button>',
-    autoplay:false,
-    initialSlide: 3,
-    centerMode: true,
-    loop:true,
-    responsive: [
-      {
-        breakpoint: 1300,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: false,
-        }
-      }, 
-           {
-        breakpoint: 1050,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: false,
-        }
-      },
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: false,
-        }
-      },
-      {
-        breakpoint: 991,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          centerMode: false
-        }
-      }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
-    ]
-  });
-
-/* 4. Testimonial Active*/
-  var testimonial = $('.h1-testimonial-active');
-    if(testimonial.length){
-    testimonial.slick({
-        dots: false,
-        infinite: true,
-        speed: 1000,
-        autoplay:true,
-        loop:true,
-        arrows: false,
-        prevArrow: '<button type="button" class="slick-prev"><i class="ti-angle-left"></i></button>',
-        nextArrow: '<button type="button" class="slick-next"><i class="ti-angle-right"></i></button>',
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              infinite: true,
-              dots: false,
-              arrow:false
-            }
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              arrows:false
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              arrows:false,
-            }
-          }
-        ]
-      });
-    }
-
 
 /* 5.  Applic App */
     var client_list = $('.app-active');
@@ -289,8 +171,5 @@
           }
         });
       }
-
-
-
 
 })(jQuery);
